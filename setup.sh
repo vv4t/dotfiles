@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo pacman -S pulseaudio pulseaudio-alsa alsa-utils --noconfirm
+sudo pacman -S pulseaudio pulseaudio-alsa alsa-utils sof-firmware --noconfirm
 sudo pacman -S python python-pip base-devel nmap --noconfirm
 sudo pacman -S xorg xorg-xinit pulseaudio pulseaudio-alsa  brightnessctl --noconfirm
 sudo pacman -S bspwm sxhkd --noconfirm
